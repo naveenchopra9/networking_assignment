@@ -1,0 +1,28 @@
+server1 30.0.0.2
+server2 40.0.0.2
+server3 50.0.0.2
+server4 60.0.0.2
+server5 70.0.0.2
+sw2-eth1 30.0.0.1
+sw2-eth2 40.0.0.1
+sw2-eth3 50.0.0.1
+sw2-eth4 60.0.0.1
+sw2-eth5 70.0.0.1
+sw2-eth6 20.0.0.2
+sw1-eth1 10.0.0.1
+sw1-eth2 10.1.0.1
+sw1-eth3 10.2.0.1
+sw1-eth4 10.3.0.1
+sw1-eth5 10.4.0.1
+sw1-eth6 10.5.0.1
+sw1-eth7 10.6.0.1
+sw1-eth8 20.0.0.1
+client1	10.0.0.2
+client2	10.1.0.2
+client3	10.2.0.2
+client4	10.3.0.2
+client5	10.4.0.2
+client6	10.5.0.2
+client7	10.6.0.2
+
+

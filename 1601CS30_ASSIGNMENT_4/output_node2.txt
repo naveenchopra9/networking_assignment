@@ -1,0 +1,3010 @@
+Muks@Muks-MacBook-Pro-2 ~/S/N/A/Week4> python main.py
+Entering new node details...
+Enter files directory: 
+./dir2
+Enter node ip/hostname: localhost
+Enter node port: 8950
+
+Entering details of an existing node...
+Enter ip/hostname (enter -1 if current node is the first node): localhost
+Enter port: 8900
+Joining chord network...
+Starting server on localhost:8950...
+Sending request: 3|||24|||5|||localhost|||8900|||25 to ('localhost', 8900)
+Server started on port localhost:8950.
+Got data: True|||5|||localhost|||8900
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||5|||localhost|||8900
+Sending request: 3|||24|||5|||localhost|||8900|||8 to ('localhost', 8900)
+Got data: True|||5|||localhost|||8900
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||5|||localhost|||8900
+Sending request: 7|||24|||5|||localhost|||8900|||24|||localhost|||8950|||0 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||5|||localhost|||8900
+Sending request: 7|||24|||5|||localhost|||8900|||24|||localhost|||8950|||1 to ('localhost', 8900)
+Got data: True|||
+Sending request: 7|||24|||5|||localhost|||8900|||24|||localhost|||8950|||2 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||5|||localhost|||8900
+Sending request: 7|||24|||5|||localhost|||8900|||24|||localhost|||8950|||3 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||5|||localhost|||8900
+Sending request: 7|||24|||5|||localhost|||8900|||24|||localhost|||8950|||4 to ('localhost', 8900)
+Got data: True|||
+Sending request: 9|||24|||5|||localhost|||8900|||24 to ('localhost', 8900)
+Got data: True|||1053.txt|||6933.txt|||6516.txt|||9194.txt|||9963.txt|||4499.txt|||4896.txt|||3690.txt|||3874.txt|||2029.txt|||4510.txt|||5815.txt|||7596.txt|||7781.txt|||2606.txt|||1284.txt|||1109.txt|||6114.txt|||9596.txt|||1849.txt|||8104.txt|||9839.txt|||4312.txt|||6103.txt|||3090.txt|||5351.txt|||6738.txt|||7482.txt|||8809.txt|||6824.txt|||4798.txt|||4997.txt|||8997.txt|||8015.txt|||983.txt|||3351.txt|||824.txt|||2305.txt|||7527.txt|||2674.txt|||4429.txt|||5454.txt|||615.txt|||5061.txt|||4747.txt|||5672.txt|||221.txt|||1.txt|||4151.txt|||1258.txt|||6669.txt|||444.txt|||7748.txt|||6656.txt|||5388.txt|||7830.txt|||9174.txt|||8097.txt|||8681.txt|||898.txt|||2187.txt|||9365.txt|||6308.txt|||7228.txt|||3259.txt
+Successful join()
+Starting stabilization thread
+Starting fix fingers thread
+0. Exit
+1. Print current node details
+2. Print successor/predecessor
+3. Print file IDs contained in current node
+4. Print finger table
+Enter choice: 
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||5|||localhost|||8900
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50548)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50548)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50551)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50551)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50552)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50552)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50557)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50557)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50558)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50558)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50561)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50561)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50562)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50562)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50567)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50567)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50568)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50568)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50571)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50571)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50572)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50572)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50575)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50575)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50576)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50576)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50579)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50579)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50580)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50580)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50583)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50583)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50584)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50584)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50589)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50589)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50590)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50590)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50595)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50595)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50596)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50596)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50599)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50599)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50600)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50600)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50603)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50603)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50604)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50604)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50607)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50607)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50608)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50608)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50613)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50613)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50614)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50614)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50619)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50619)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50620)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50620)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50623)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50623)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50624)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50624)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50629)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50629)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50630)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50630)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50633)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50633)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50634)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50634)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50637)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50637)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50638)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50638)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50641)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50641)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50642)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50642)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50645)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50645)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50646)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50646)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50649)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50649)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50650)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50650)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50653)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50653)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50654)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50654)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50658)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50658)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50659)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50659)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50662)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50662)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50663)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50663)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50667)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50667)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50668)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50668)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50671)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50671)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50672)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50672)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50675)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50675)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50676)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50676)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50679)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50679)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50680)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50680)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50683)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50683)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50684)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50684)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50687)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50687)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50688)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50688)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50691)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50691)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50692)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50692)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50695)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50695)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50696)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50696)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50699)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50699)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50700)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50700)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50703)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50703)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50704)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50704)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50707)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50707)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50708)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50708)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50711)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50711)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50712)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50712)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50715)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50715)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50716)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50716)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50720)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50720)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50721)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50721)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50727)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50727)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50728)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50728)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50733)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50733)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50734)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50734)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50737)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50737)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50738)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50738)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50742)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50742)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50743)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50743)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50746)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50746)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50747)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50747)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50750)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50750)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50751)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50751)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50756)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50756)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50757)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50757)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50760)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50760)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50761)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50761)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50764)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50764)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50765)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50765)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50768)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50768)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50769)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50769)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50772)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50772)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50773)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50773)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50776)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50776)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50777)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50777)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50780)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50780)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50781)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50781)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50784)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50784)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50785)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50785)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50790)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50790)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50791)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50791)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50794)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50794)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50795)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50795)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50798)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50798)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50799)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50799)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50802)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50802)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50803)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50803)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50806)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50806)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50807)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50807)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50810)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50810)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50811)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50811)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50816)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50816)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50817)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50817)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50820)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50820)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50821)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50821)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50824)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50824)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50825)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50825)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50828)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50828)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50829)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50829)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50832)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50832)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50833)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50833)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50836)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50836)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50837)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50837)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50840)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50840)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50841)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50841)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50844)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50844)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50845)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50845)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50848)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50848)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50849)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50849)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50852)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50852)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50853)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50853)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50856)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50856)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50857)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50857)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50860)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50860)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50861)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50861)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50864)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50864)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50865)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50865)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50868)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50868)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50869)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50869)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50872)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50872)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50873)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50873)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50878)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50878)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50879)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50879)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50882)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50882)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50883)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50883)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50886)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50886)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50887)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50887)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50890)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50890)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50891)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50891)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50894)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50894)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50895)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50895)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50898)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50898)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50899)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50899)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50902)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50902)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50903)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50903)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50906)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50906)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50907)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50907)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50910)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50910)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50911)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50911)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50914)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50914)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50915)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50915)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50920)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50920)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50921)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50921)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50924)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50924)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50925)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50925)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50928)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50928)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50929)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50929)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50932)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50932)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50933)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50933)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50936)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50936)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50937)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50937)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50940)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50940)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50941)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50941)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50944)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50944)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50945)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50945)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50950)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50950)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50951)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50951)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50956)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50956)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50957)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50957)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50960)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50960)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50961)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50961)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50964)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50964)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50965)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50965)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50970)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50970)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50971)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50971)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50974)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50974)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50975)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50975)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50978)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50978)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50979)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50979)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50984)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50984)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50985)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50985)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50992)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50992)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50993)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50993)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 50998)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 50998)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 50999)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 50999)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51002)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51002)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51003)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51003)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51008)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51008)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51009)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51009)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51014)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51014)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51015)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51015)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51018)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51018)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51019)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51019)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51022)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51022)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51023)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51023)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51026)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51026)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51027)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51027)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51030)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51030)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51031)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51031)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51034)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51034)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51035)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51035)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51038)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51038)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51039)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51039)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51042)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51042)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51043)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51043)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51046)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51046)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51047)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51047)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51050)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51050)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51051)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51051)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51054)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51054)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51055)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51055)
+Sending response True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51060)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51060)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51061)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51061)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51064)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51064)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51065)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51065)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51068)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51068)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51069)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51069)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51074)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51074)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51075)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51075)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51078)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51078)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51079)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51079)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51084)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51084)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51085)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51085)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51088)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51088)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51089)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51089)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51092)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51092)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51093)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51093)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51096)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51096)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51097)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51097)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51102)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51102)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51103)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51103)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51106)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51106)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51107)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51107)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51110)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51110)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51111)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51111)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51114)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51114)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51115)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51115)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51118)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51118)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51119)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51119)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51122)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51122)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51123)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51123)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51126)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51126)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51127)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51127)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51130)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51130)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51131)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51131)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51134)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51134)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51135)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51135)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51138)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51138)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51139)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51139)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51144)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51144)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51145)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51145)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51150)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51150)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51151)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51151)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51154)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51154)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51155)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51155)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51158)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51158)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51159)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51159)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51162)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51162)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51163)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51163)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51168)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51168)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51169)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51169)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51172)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51172)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51173)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51173)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51178)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51178)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51179)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51179)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51184)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51184)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51185)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51185)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51188)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51188)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51189)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51189)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51192)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51192)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51193)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51193)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51196)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51196)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51197)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51197)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Recieved connection from ('127.0.0.1', 51202)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51202)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51203)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51203)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51206)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51206)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51207)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51207)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51210)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51210)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51211)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51211)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51214)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51214)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51215)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51215)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51218)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51218)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51219)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51219)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51222)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51222)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51223)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51223)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51227)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51227)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51229)
+Received 1|||5|||24|||localhost|||8950 from ('127.0.0.1', 51229)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51230)
+Received 1|||5|||24|||localhost|||8950 from ('127.0.0.1', 51230)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51233)
+Received 7|||5|||24|||localhost|||8950|||12|||localhost|||9000|||0 from ('127.0.0.1', 51233)
+Sending response True|||
+Recieved connection from ('127.0.0.1', 51235)
+Received 7|||5|||24|||localhost|||8950|||12|||localhost|||9000|||1 from ('127.0.0.1', 51235)
+Sending response True|||
+Recieved connection from ('127.0.0.1', 51238)
+Received 7|||5|||24|||localhost|||8950|||12|||localhost|||9000|||2 from ('127.0.0.1', 51238)
+Sending response True|||
+Recieved connection from ('127.0.0.1', 51240)
+Received 7|||5|||24|||localhost|||8950|||12|||localhost|||9000|||3 from ('127.0.0.1', 51240)
+Sending response True|||
+Recieved connection from ('127.0.0.1', 51242)
+Received 7|||5|||24|||localhost|||8950|||12|||localhost|||9000|||4 from ('127.0.0.1', 51242)
+Sending request: 7|||24|||5|||localhost|||8900|||12|||localhost|||9000|||4 to ('localhost', 8900)
+Got data: True|||
+Sending response True|||
+Recieved connection from ('127.0.0.1', 51245)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51245)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51246)
+Received 8|||5|||24|||localhost|||8950|||5|||localhost|||8900 from ('127.0.0.1', 51246)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51249)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51249)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51250)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51250)
+Sending response True|||
+Recieved connection from ('127.0.0.1', 51251)
+Received 2|||5|||24|||localhost|||8950 from ('127.0.0.1', 51251)
+Sending response True|||12|||localhost|||9000
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51257)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51257)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51258)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51258)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51265)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51265)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51266)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51266)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51273)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51273)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51274)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51274)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51279)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51279)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51280)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51280)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51281)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51281)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51282)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51282)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51287)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51287)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51288)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51288)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51289)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51289)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51290)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51290)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51297)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51297)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51298)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51298)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51299)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51299)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51300)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51300)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51307)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51307)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51308)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51308)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51313)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51313)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51314)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51314)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51321)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51321)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51322)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51322)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51329)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51329)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51330)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51330)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51337)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51337)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51338)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51338)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51343)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51343)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51344)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51344)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51349)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51349)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51350)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51350)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51355)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51355)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51356)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51356)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51357)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51357)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51358)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51358)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51363)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51363)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51364)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51364)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51371)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51371)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51372)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51372)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51379)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51379)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51380)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51380)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51385)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51385)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51386)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51386)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51387)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51387)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51388)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51388)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51395)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51395)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51396)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51396)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51401)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51401)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51402)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51402)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51407)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51407)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51408)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51408)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51415)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51415)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51416)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51416)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51423)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51423)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51424)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51424)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51431)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51431)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51432)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51432)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51433)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51433)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51434)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51434)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51439)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51439)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51440)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51440)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51449)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51449)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51450)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51450)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51457)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51457)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51458)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51458)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51465)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51465)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51466)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51466)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51467)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51467)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51468)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51468)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51475)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51475)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51476)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51476)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51481)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51481)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51482)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51482)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51489)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51489)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51490)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51490)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51497)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51497)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51498)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51498)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51505)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51505)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51506)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51506)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51511)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51511)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51512)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51512)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51519)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51519)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51520)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51520)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51525)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51525)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51526)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51526)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51533)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51533)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51534)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51534)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51535)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51535)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51536)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51536)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51543)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51543)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51544)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51544)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51549)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51549)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51550)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51550)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51555)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51555)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51556)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51556)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51563)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51563)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51564)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51564)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51569)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51569)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51570)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51570)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51575)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51575)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51576)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51576)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51577)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51577)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51578)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51578)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51583)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51583)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51584)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51584)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51589)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51589)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51590)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51590)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51597)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51597)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51598)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51598)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51607)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51607)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51608)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51608)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51613)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51613)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51614)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51614)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51615)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51615)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51616)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51616)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51623)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51623)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51624)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51624)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51633)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51633)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51634)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51634)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51641)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51641)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51642)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51642)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51647)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51647)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51648)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51648)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51653)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51653)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51654)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51654)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51659)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51659)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51660)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51660)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51665)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51665)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51666)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51666)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51673)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51673)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51674)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51674)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51679)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51679)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51680)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51680)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51681)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51681)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51682)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51682)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51691)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51691)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51692)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51692)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51697)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51697)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51698)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51698)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51705)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51705)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51706)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51706)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51711)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51711)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51712)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51712)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51717)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51717)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51718)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51718)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51723)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51723)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51724)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51724)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51729)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51729)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51730)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51730)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51737)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51737)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51738)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51738)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51745)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51745)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51746)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51746)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51755)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51755)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51756)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51756)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51761)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51761)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51762)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51762)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51769)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51769)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51770)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51770)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51777)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51777)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51778)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51778)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51785)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51785)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51786)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51786)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51787)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51787)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51788)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51788)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51795)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51795)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51796)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51796)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51801)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51801)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51802)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51802)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51803)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51803)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51804)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51804)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51811)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51811)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51812)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51812)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51819)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51819)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51820)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51820)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51827)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51827)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51828)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51828)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Sending request: 1|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51837)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51837)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51838)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51838)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+4
+Finger table:
+i: 0, start: 25, end: 25 node: <id: 5 ip: localhost port: 8900>
+i: 1, start: 26, end: 27 node: <id: 5 ip: localhost port: 8900>
+i: 2, start: 28, end: 31 node: <id: 5 ip: localhost port: 8900>
+i: 3, start: 0, end: 7 node: <id: 5 ip: localhost port: 8900>
+i: 4, start: 8, end: 23 node: <id: 12 ip: localhost port: 9000>
+0. Exit
+1. Print current node details
+2. Print successor/predecessor
+3. Print file IDs contained in current node
+4. Print finger table
+Enter choice: 
+Recieved connection from ('127.0.0.1', 51843)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51843)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51844)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51844)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51849)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51849)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51850)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51850)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51855)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51855)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51856)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51856)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51857)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51857)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51858)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51858)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51865)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51865)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51866)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51866)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51873)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51873)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51874)
+Received 1|||12|||24|||localhost|||8950 from ('127.0.0.1', 51874)
+Sending response True|||5|||localhost|||8900
+Recieved connection from ('127.0.0.1', 51875)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51875)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51876)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51876)
+Sending response True|||
+Sending request: 2|||24|||5|||localhost|||8900 to ('localhost', 8900)
+Got data: True|||24|||localhost|||8950
+Sending request: 8|||24|||5|||localhost|||8900|||24|||localhost|||8950 to ('localhost', 8900)
+Got data: True|||
+Recieved connection from ('127.0.0.1', 51881)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 51881)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 51882)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 51882)
+Sending response True|||
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+Exception caught: [Errno 61] Connection refused
+^CTraceback (most recent call last):
+  File "main.py", line 43, in <module>
+    main()
+  File "main.py", line 39, in main
+    ch = Chord(node, oldNode, files_dir)
+  File "/Users/Muks/Stuff/NetworksLab/Assignments/Week4/chord.py", line 60, in __init__
+    self.user_input()
+  File "/Users/Muks/Stuff/NetworksLab/Assignments/Week4/chord.py", line 173, in user_input
+    choice = int(input())
+KeyboardInterrupt
+Recieved connection from ('127.0.0.1', 52134)
+Received 2|||12|||24|||localhost|||8950 from ('127.0.0.1', 52134)
+Sending response True|||12|||localhost|||9000
+Recieved connection from ('127.0.0.1', 52135)
+Received 8|||12|||24|||localhost|||8950|||12|||localhost|||9000 from ('127.0.0.1', 52135)
+Sending response True|||
+^CException ignored in: <module 'threading' from '/Users/Muks/anaconda3/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/Users/Muks/anaconda3/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/Users/Muks/anaconda3/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/Users/Muks/anaconda3/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
